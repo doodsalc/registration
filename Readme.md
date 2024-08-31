@@ -10,7 +10,7 @@ For further reference, please see the shared documentation:
 To start the application:
 
 1. **Clone the Repository**  
-   Clone this repository locally, using an IDE like IntelliJ.
+   Clone this repository locally. You can use an IDE like IntelliJ.
 
 2. **Start Docker Desktop**  
    Ensure Docker Desktop is running on your machine. For details, visit [docker.com](https://www.docker.com).
@@ -28,7 +28,7 @@ To start the application:
 
 ## Testing and Validation
 
-When the application is started, you can use POSTMAN or the Swagger UI to test
+When the application is started, referring to the documentation you can test using POSTMAN or by the Swagger UI: 
 http://localhost:8080/swagger-ui/index.html
 
-Check the welcome emails in fake smtp at [http://localhost:8090/](http://localhost:8090/)
+Check the welcome emails in fake smtp UI at [http://localhost:8090/](http://localhost:8090/)
