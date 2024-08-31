@@ -19,7 +19,7 @@ To start the application:
    - **On MacOS:**  
      Open a terminal and navigate to the root folder of the registration application, then run:
      ```sh
-     ./docker_run.sh
+     sh ./docker_run.sh
      ```
    - **On Windows:**  
      ```sh
