@@ -1,23 +1,31 @@
-# Getting Started
+# Registration API
 
 ### Reference Documentation
-For further reference, please consider the following sections:
+For further reference, please see the following shared drive:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/3.3.3/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.3.3/maven-plugin/build-image.html)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/3.3.3/reference/htmlsingle/index.html#data.sql.jpa-and-spring-data)
+* [Google Drive Documentation](https://drive.google.com/drive/folders/1i7n88s4XE_qGfYK-K7VUcPlXZkT7BEcb)
 
-### Guides
-The following guides illustrate how to use some features concretely:
 
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+### Starting the application
+To start the application:
 
-### Maven Parent overrides
+* Clone this repository in your local. This could be via an IDE like Intellij
+* Start your local Docker Desktop. See www.docker.com for details
+* If using MacOS: in t terminal, from application registration root folder run
 
-Due to Maven's design, elements are inherited from the parent POM to the project POM.
-While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the parent.
-To prevent this, the project POM contains empty overrides for these elements.
-If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
+```sh ./docker_run.sh```
 
-java -jar -Dspring.config.location=./config/ fake-smtp-server-2.4.0.jar
+* If using Windows
+
+```docker_run.bat```
+
+### Testing and Validation
+
+When the application is started, you can use POSTMAN or the Swagger UI to test
+http://localhost:8080/swagger-ui/index.html
+
+You can check the fake smtp UI for the welcome emails
+http://localhost:8090/
+
+
+
