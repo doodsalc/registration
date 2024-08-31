@@ -31,7 +31,4 @@ To start the application:
 When the application is started, you can use POSTMAN or the Swagger UI to test
 http://localhost:8080/swagger-ui/index.html
 
-You can check the fake smtp UI for the welcome emails
-http://localhost:8090/
-
-**Fake SMTP UI:** Check the welcome emails at [http://localhost:8090/](http://localhost:8090/)
+Check the welcome emails in fake smtp at [http://localhost:8090/](http://localhost:8090/)
