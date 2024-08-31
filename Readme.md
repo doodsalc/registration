@@ -3,7 +3,7 @@
 ## Reference Documentation
 For further reference, please see the shared documentation:
 
-🔗 [Google Drive Documentation](https://drive.google.com/drive/folders/1i7n88s4XE_qGfYK-K7VUcPlXZkT7BEcb)
+🔗 [Google Drive Documentation](https://docs.google.com/document/d/1dNHAZaJOHZ02p2WRI67ORJg2nmLMd2g-tIHKhMxHHAs)
 
 ## Starting the Application
 
@@ -28,8 +28,10 @@ To start the application:
 
 ## Testing and Validation
 
-Once the application is running, you can test it using POSTMAN or access the Swagger UI:
+When the application is started, you can use POSTMAN or the Swagger UI to test
+http://localhost:8080/swagger-ui/index.html
 
-**Swagger UI:** [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+You can check the fake smtp UI for the welcome emails
+http://localhost:8090/
 
 **Fake SMTP UI:** Check the welcome emails at [http://localhost:8090/](http://localhost:8090/)
