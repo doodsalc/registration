@@ -27,8 +27,10 @@ To start the application:
      ```
 
 ## Testing and Validation
+When the application is started, you can test using POSTMAN. You can refer to the [documentation](https://docs.google.com/document/d/1dNHAZaJOHZ02p2WRI67ORJg2nmLMd2g-tIHKhMxHHAs).
 
-When the application is started, referring to the documentation you can test using POSTMAN or by the Swagger UI: 
+You may also test by the Swagger UI: \
 http://localhost:8080/swagger-ui/index.html
 
-Check the welcome emails in fake smtp UI at [http://localhost:8090/](http://localhost:8090/)
+Check the welcome emails in the fake-smtp UI at: \
+[http://localhost:8090/](http://localhost:8090/)
